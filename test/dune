@@ -1,0 +1,1 @@
+(tests (names test ) (libraries clp_operations ounit2 qcheck bap-primus))

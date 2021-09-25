@@ -1,0 +1,13 @@
+(library
+ (name clp_operations)
+ (public_name clp_operations)
+ (modules
+  circularLinearProgression)
+ (libraries bap oseq core_kernel zarith)
+ (preprocess
+  (pps ppx_jane)))
+
+(env
+ (dev
+  (flags
+   (:standard -w -33-27-11-26))))
