@@ -13,6 +13,8 @@ depends: [
   "oseq"
   "core_kernel"
   "zarith"
+  "ounit2" {with-test}
+  "qcheck" {with-test}
   "odoc" {with-doc}
 ]
 build: [
@@ -32,3 +34,4 @@ build: [
   ]
   ["dune" "install" "-p" name "--create-install-files" name]
 ]
+dev-repo: "git+https://github.com/2over12/clp_operations.git"

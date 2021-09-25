@@ -10,9 +10,12 @@
  (maintainers "Ian Smith")
  (homepage https://github.com/2over12/clp_operations)
  (bug_reports https://github.com/2over12/clp_operations/issues)
+ (source (github 2over12/clp_operations))
  (depends
  bap
  oseq 
  core_kernel 
  zarith
+ (ounit2 :with-test) 
+ (qcheck :with-test)
  ))
