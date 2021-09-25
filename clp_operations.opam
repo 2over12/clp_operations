@@ -3,6 +3,10 @@ opam-version: "2.0"
 synopsis: "A Clp domain"
 description:
   "Represents non relational properties of signed or unsigned bitvectors."
+maintainer: ["Ian Smith"]
+authors: ["Ian Smith"]
+homepage: "https://github.com/2over12/clp_operations"
+bug-reports: "https://github.com/2over12/clp_operations/issues"
 depends: [
   "dune" {>= "2.9"}
   "bap"
